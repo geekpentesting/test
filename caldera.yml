@@ -1,0 +1,12 @@
+users: 
+  red:
+    red: red_user                                                                  # Username for red team
+  blue:
+    blue: blue_user                                                                # Username for blue team
+api_key_red: red_team_12345apikey                                                  # API key for red team
+api_key_blue: blue_team_54321apikey                                                # API key for blue team
+api_key: general_service_key_98765                                                 # General API key
+crypt_salt: secure_salt_value_for_encryption                                       # Cryptographic salt for hashing
+encryption_key: super_secure_encryption_key                                        # Encryption key for securing data
+app.contact.http: http://caldera.organizationdomain.com:8888                       # Application contact URL
+app.contact.tunnel.ssh.user_password: secure_ssh_password                          # SSH user password for tunnel
